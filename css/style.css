@@ -84,7 +84,7 @@ body {
 
 .general__screen {
     background-image: url(../img/backgrounds/general-bg.jpg);
-
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -198,12 +198,64 @@ body {
     margin-top: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
+}
+
+.mouse-1 {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    opacity: 50%;
+    z-index: -10;
+}
+
+.mouse-2 {
+    position: absolute;
+    right: 750px;
+    top: 330px;
+    opacity: 50%;
+    z-index: -10;
+}
+
+.mouse-3 {
+    position: absolute;
+    left: -280px;
+    top: -40px;
+    opacity: 50%;
+    z-index: -10;
+}
+
+.mouse-4 {
+    position: absolute;
+    left: 300px;
+    top: -40px;
+    opacity: 50%;
+    z-index: -10;
+}
+
+.mouse-5 {
+    position: absolute;
+    bottom: -70px;
+    right: -20px;
+    opacity: 50%;
+    z-index: -10;
+    width: 900px;
+}
+
+.mouse-6 {
+    position: absolute;
+    bottom: -160px;
+    left: -20px;
+    opacity: 50%;
+    z-index: -10;
+    width: 900px;
 }
 
 .star__img {
     width: 700px;
     height: 700px;
+    margin-right: 150px;
 }
 
 .star__title {
@@ -234,9 +286,114 @@ body {
     border-radius: 5px;
     box-shadow:  8px 10px 9px 0px rgba(0,0,0,0.5);
     animation: button 3s infinite; /* 1s - это продолжительность анимации */
+    position: relative;
 }
+
+.star__button-img-1 {
+    position: absolute;
+    bottom: -7px;
+    left: 5px;
+}
+
+.star__button-img-2 {
+    position: absolute;
+    top: -12px;
+    right: 5px;
+}
+
 
 .star__button:hover {
     opacity: 80%;
     transition: .3s all linear;
+}
+
+.elips__wrapper {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elips__image {
+    width: 700px;
+    height: 700px;
+    margin-right: 150px;
+}
+
+.elips__title {
+    color: #fff;
+    font-family: "Single Day";
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.elips__description {
+    color: #fff;
+    font-family: "Single Day";
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.span-1 {
+    color: #008C97;
+}
+
+.span-2 {
+    color: #FA8C30;
+}
+
+.span-3 {
+    color: #29744A;
+}
+
+.span-4 {
+    color: #AB4476;
+}
+
+.span-5 {
+    color: #FF7587;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: #140033;
+    position: relative;
+}
+
+.footer__image-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.footer__image-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer__bottom-text {
+    color: #fff;
+    font-family: "Single Day";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 230px;
 }
