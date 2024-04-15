@@ -1,4 +1,45 @@
 @media(max-width: 1350px) {
+    .header__content {
+        display: block;
+    }
+    .header__logo {
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .menu__list {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .general__screen {
+        height: 840px;
+    }
+    .general__text {
+        text-align: center;
+    }
+    .general__title {
+        font-size: 140px;
+    }
+    .general__social {
+        justify-content: center;
+    }
+    .general__connect {
+        margin: 0 auto;
+    }
+    .general__connect-input {
+        width: 100%;
+    }
+    .connect__adress {
+        margin-right: 50px;
+    }
+    .genral__character {
+        bottom: -266px;
+        left: 0;
+        margin: 0 auto;
+        width: 290px;
+        height: 290px;
+    }
     .star__wrapper {
         display: block;
         text-align: center;
@@ -41,6 +82,37 @@
 }
 
 @media(max-width: 570px) {
+    .header__content {
+        height: 85px;
+    }
+    .header__logo {
+        margin-top: 10px;
+    }
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+    .general__title {
+        font-size: 90px;
+        margin-bottom: 0;
+    }
+    .general__social {
+        display: block;
+        margin: 0 auto 30px auto; 
+    }
+    .connect__adress {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .genral__character {
+        bottom: -256px;
+    }
+    .general__connect-input {
+        padding: 15px;
+    }
+    .general__connect-input-icon {
+        height: 20px;
+    }
     .star__title {
         font-size: 45px;
     }
@@ -98,7 +170,23 @@
     }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 450px) {
+    .general__title {
+        font-size: 65px;
+    }
+    .genral__character {
+        bottom: -281px;
+    }
+}
+
+@media(max-width: 376px) {
+    .connect__adress {
+        font-size: 14px;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
     .star__title {
         font-size: 30px;
         margin-bottom: 15px;
