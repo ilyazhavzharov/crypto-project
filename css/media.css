@@ -1,4 +1,10 @@
 @media(max-width: 1350px) {
+    .header {
+        position: fixed;
+        z-index: 11;
+        background-color: #081A2F;
+        width: 100%;
+    }
     .header__content {
         display: flex;
     }
@@ -14,6 +20,7 @@
     }
     .general__screen {
         height: 840px;
+        padding-top: 60px;
     }
     .general__text {
         text-align: center;
@@ -134,7 +141,7 @@
     }
     .connect__adress {
         margin-right: 20px;
-        font-size: 25px;
+        font-size: 22px;
     }
     .genral__character {
         bottom: -256px;
@@ -213,13 +220,13 @@
         font-size: 65px;
     }
     .genral__character {
-        bottom: -281px;
+        bottom: -220px;
     }
 }
 
 @media(max-width: 376px) {
     .connect__adress {
-        font-size: 17px;
+        font-size: 20px;
     }
     .star__description {
         font-size: 22px;
