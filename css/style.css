@@ -410,3 +410,7 @@ body {
     justify-content: center;
     height: 230px;
 }
+
+.header__burger {
+    display: none;
+}
