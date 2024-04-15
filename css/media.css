@@ -79,6 +79,9 @@
     .footer__image-right {
         display: none;
     }
+    .general__screen {
+        background-image: url(../img/backgrounds/general-bg-2.jpg);
+    }
 }
 
 @media(max-width: 570px) {
