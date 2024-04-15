@@ -105,7 +105,7 @@
     }
     .connect__adress {
         margin-right: 20px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .genral__character {
         bottom: -256px;
@@ -190,7 +190,7 @@
 
 @media(max-width: 376px) {
     .connect__adress {
-        font-size: 13px;
+        font-size: 17px;
     }
     .logo {
         width: 80px;
