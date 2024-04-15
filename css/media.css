@@ -168,6 +168,12 @@
         font-size: 20px;
         margin-bottom: 20px;
     }
+    .star__button-img-1 {
+        display: none;
+    }
+    .star__button-img-2 {
+        display: none;
+    }
 }
 
 @media(max-width: 450px) {
@@ -181,29 +187,22 @@
 
 @media(max-width: 376px) {
     .connect__adress {
-        font-size: 14px;
+        font-size: 13px;
     }
     .logo {
         width: 80px;
         height: 80px;
     }
-    .star__title {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
     .star__description {
-        font-size: 18px;
+        font-size: 22px;
         margin-bottom: 15px;
     }
     .star__button  {
         padding: 15px 45px;
         font-size: 18px;
     }
-    .elips__title {
-        font-size: 30px;
-    }
     .elips__description {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 25px;
     }
     .elips__wrapper {
@@ -211,5 +210,11 @@
     }
     .footer__bottom-text {
         font-size: 15px;
+    }
+    .star__title {
+        font-size: 40px;
+    }
+    .elips__title {
+        font-size: 40px;
     }
 }
