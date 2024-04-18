@@ -28,8 +28,12 @@ body {
     height: 130px;
 }
 
-.header__burger-a {
+.header__burger {
     display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff28;
+    border-radius: 5px;
 }
 
 .ham {
