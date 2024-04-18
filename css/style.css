@@ -10,7 +10,7 @@
     background: linear-gradient(#642bff, #ff22eb);
     border-radius: 10px;
 }
- 
+
 body {
     background-color: #081A2F;
 }
@@ -26,6 +26,10 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 130px;
+}
+
+.header__burger-a {
+    display: none;
 }
 
 .header__logo {
@@ -409,8 +413,4 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 230px;
-}
-
-.header__burger {
-    display: none;
 }
