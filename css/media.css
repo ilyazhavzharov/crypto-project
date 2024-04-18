@@ -8,13 +8,17 @@
     .header__content {
         display: flex;
     }
-    .header__logo {
-        justify-content: center;
+    .header__menu {
+        display: none;
+    }
+    .ham {
+        display: block;
     }
     .menu__list {
         display: none;
     }
     .header__button {
+        opacity: 0;
         display: none;
     }
     .general__screen {
@@ -88,19 +92,8 @@
     .general__screen {
         background-image: url(../img/backgrounds/general-bg-2.jpg);
     }
-    .header__burger {
+    .header__burger-a {
         display: block;
-        background-color: #132a45;
-        height: 45px;
-        width: 45px;
-        padding: 10px;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 7px;
-        border-radius: 5px;
-        z-index: 10;
     }
     .burger__line-1 {
         height: 1px;
