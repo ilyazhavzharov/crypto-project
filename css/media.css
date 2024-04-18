@@ -8,9 +8,20 @@
     .header__content {
         display: flex;
     }
+<<<<<<< HEAD
     .header__logo {
         z-index: 12;
         justify-content: center;
+=======
+    .header__burger {
+        display: block;
+    }
+    .header__menu {
+        display: none;
+    }
+    .ham {
+        display: block;
+>>>>>>> 318677cc6cbebd1ba6ccd144c09cfb8cfeefe008
     }
     .menu__list {
         position: absolute;
@@ -32,6 +43,7 @@
         font-size: 40px;
     }
     .header__button {
+        opacity: 0;
         display: none;
         position: absolute;
         display: none;
@@ -115,6 +127,7 @@
     .general__screen {
         background-image: url(../img/backgrounds/general-bg-2.jpg);
     }
+<<<<<<< HEAD
     .menu-open {
         overflow: hidden;
     }
@@ -134,6 +147,10 @@
         gap: 7px;
         border-radius: 5px;
         z-index: 10;
+=======
+    .header__burger-a {
+        display: block;
+>>>>>>> 318677cc6cbebd1ba6ccd144c09cfb8cfeefe008
     }
     .header__burger-active {
         gap: 0;
